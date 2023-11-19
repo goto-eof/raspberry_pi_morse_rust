@@ -35,11 +35,11 @@ fn print_message(morse: &[u32]) {
     print!("Translated: ");
     for morse_value in morse.iter() {
         if *morse_value == SHORT {
-            print!(".")
+            println!(".")
         } else if *morse_value == LONG {
-            print!("_")
+            println!("_")
         } else if *morse_value == PAUSE {
-            print!(" ")
+            println!(" ")
         }
     }
     println!("Blinking...");
