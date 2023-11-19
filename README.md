@@ -1,4 +1,4 @@
-### Install RPI 0 target
+### Install Raspberry PI Zero target
 
 ```
 rustup target add arm-unknown-linux-gnueabihf
