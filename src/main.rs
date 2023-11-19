@@ -34,11 +34,11 @@ fn print_message(morse: &[u32]) {
     println!("Sending: {}", MESSAGE);
     println!("Translated ");
     for morse_value in morse.iter() {
-        if morse_value == SHORT {
+        if *morse_value == SHORT {
             print!(".")
-        } else if morse_value == LONG {
+        } else if *morse_value == LONG {
             print!("_")
-        } else if morse_value == PAUSE {
+        } else if *morse_value == PAUSE {
             print!(" ")
         }
     }
