@@ -13,9 +13,9 @@ const MESSAGE: &str = "Hello World!";
 fn main() {
     let mut led = LED::new(17);
 
-    led.blink(1.0, 1.0);
+    // led.blink(1.0, 1.0);
 
-    led.wait();
+    // led.wait();
 
     let result = translate(MESSAGE);
     if result.is_err() {
