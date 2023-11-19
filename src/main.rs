@@ -33,7 +33,7 @@ fn main() {
 fn print_message(morse: &[u32]) {
     println!("Sending: {}", MESSAGE);
     println!("Translated ");
-    for morse_value in morse.iter().copied() {
+    for morse_value in morse.iter() {
         if morse_value == SHORT {
             print!(".")
         } else if morse_value == LONG {
