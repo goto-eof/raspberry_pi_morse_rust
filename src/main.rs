@@ -23,8 +23,10 @@ fn main() {
     loop {
         for morse_value in morse.clone() {
             led.on();
+            println!("ON");
             thread::sleep(Duration::from_millis(morse_value as u64));
             led.off();
+            println!("OFF");
             thread::sleep(Duration::from_millis(PAUSE_BETWEEN_MORSE_SIGNALS as u64));
         }
     }
