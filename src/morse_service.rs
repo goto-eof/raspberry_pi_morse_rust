@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-pub const K: u32 = 1050;
+pub const K: u32 = 50;
 pub const PAUSE_BETWEEN_MORSE_SIGNALS: u32 = 50 + K;
 pub const SHORT: u32 = 100 + K;
 pub const LONG: u32 = 300 + K;
