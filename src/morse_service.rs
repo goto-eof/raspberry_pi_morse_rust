@@ -60,7 +60,7 @@ pub fn retrieve_translation_map() -> HashMap<char, Vec<u32>> {
         ('T', vec![LONG]),
         ('U', vec![SHORT, SHORT, LONG]),
         ('V', vec![SHORT, SHORT, SHORT, LONG]),
-        ('U', vec![SHORT, LONG, LONG]),
+        ('W', vec![SHORT, LONG, LONG]),
         ('X', vec![LONG, SHORT, SHORT, LONG]),
         ('Y', vec![LONG, SHORT, LONG, LONG]),
         ('Z', vec![LONG, LONG, SHORT, SHORT]),
