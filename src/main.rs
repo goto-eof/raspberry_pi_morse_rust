@@ -11,7 +11,7 @@ use rust_gpiozero::*;
 
 const MESSAGE: &str = "Hello World!";
 fn main() {
-    let led = LED::new(4);
+    let led = LED::new(17);
 
     let result = translate(MESSAGE);
     if result.is_err() {
