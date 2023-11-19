@@ -32,7 +32,7 @@ fn main() {
 
 fn print_message(morse: &[u32]) {
     println!("Sending: {}", MESSAGE);
-    println!("Translated ");
+    print!("Translated: ");
     for morse_value in morse.iter() {
         if *morse_value == SHORT {
             print!(".")
@@ -42,4 +42,5 @@ fn print_message(morse: &[u32]) {
             print!(" ")
         }
     }
+    println!("Blinking...");
 }
