@@ -1,7 +1,7 @@
-### Install Raspberry PI Zero target
+### Run application on Raspberry PI Zero
 
 ```
-rustup target add arm-unknown-linux-gnueabihf
+cargo run
 ```
 
 Tested on Raspberry PI Zero W.
